@@ -720,21 +720,21 @@ const Home = () => {
           <div class="segment-title">General</div>
           <div class="empty-space left-border"></div>
           <div class="segment-question">
-          I want to work part-time, is that possible
+            I want to work part-time, is that possible
           </div>
         </div>
         <div class="faq-segment border-top">
           <div class="segment-title"></div>
           <div class="empty-space"></div>
           <div class="segment-question">
-          How long are the average projects?
+            How long are the average projects?
           </div>
         </div>
         <div class="faq-segment gray">
           <div class="segment-title"></div>
           <div class="empty-space"></div>
           <div class="segment-question">
-          How does the payment works?
+            How does the payment works?
           </div>
         </div>
         <div class="faq-segment">

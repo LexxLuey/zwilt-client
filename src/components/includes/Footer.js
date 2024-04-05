@@ -18,12 +18,12 @@ const Footer = () => {
                     </div>
                     <div className="logo-text">
                         <p>
-                        We take complex hiring processes - and simplify them. Connecting you to the world’s highly qualified talent pool.
+                            We take complex hiring processes - and simplify them. Connecting you to the world’s highly qualified talent pool.
                         </p>
                     </div>
                 </div>
                 <div className="footer-col-2">
-                    <h1 style={{fontSize: "2.5rem"}}>Connecting the right people to the right businesses.</h1>
+                    <h1 style={{ fontSize: "2.5rem" }}>Connecting the right people to the right businesses.</h1>
                 </div>
             </div>
             <div className='footer-links'>
@@ -70,7 +70,21 @@ const Footer = () => {
                 </div>
             </div>
             <hr />
-
+            <div class="footer-bottom">
+                <span>All rights reserved by Zwilt</span>
+                <span className='tcs'>
+                    <span>
+                        <u>
+                            Privacy Policy
+                        </u>
+                    </span>
+                    <span>
+                        <u>
+                            Terms & Conditions
+                        </u>
+                    </span>
+                </span>
+            </div>
         </section>
     )
 }

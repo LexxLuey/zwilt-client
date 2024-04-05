@@ -46,6 +46,12 @@ h1 {
     gap: 8px;
 }
 
+.logo,
+.menu-list ul,
+.auth:hover {
+    cursor: pointer;
+}
+
 .menu-list ul {
     gap: 20px;
 }
@@ -180,6 +186,10 @@ p {
     border: none;
     background-color: #ffbe2e;
     border-radius: 12px;
+}
+
+.search-box button:hover {
+    cursor: pointer;
 }
 
 .search-box input {
@@ -531,6 +541,10 @@ p {
     box-shadow: 4px 4px 4px rgba(148, 147, 147, 0.1);
 }
 
+.section-4-step:hover {
+    cursor: pointer;
+}
+
 .step-icon {
     width: 40px;
     height: 40px;
@@ -873,6 +887,10 @@ p {
     gap: 20px;
 }
 
+.faq-segment:hover {
+    cursor: pointer;
+}
+
 .border-top {
     border-top: #949496 1px solid;
 }
@@ -967,13 +985,23 @@ p {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    width: 90%;
 }
 
 .footer span {
     margin-right: 30px;
 }
 
+.tcs {
+    color: #a6a7a9;
+}
+
+.tcs:hover {
+    cursor: pointer;
+}
+
 .footer hr {
+    width: 100%;
     height: 1px;
     border: none;
     background: linear-gradient(to right, #fff, #000);
@@ -1008,6 +1036,48 @@ p {
     text-transform: capitalize;
 }
 
+.footer-col-3 p:hover {
+    text-transform: capitalize;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* CSS for the unordered list */
+
+/* CSS for list items */
+.footer-col-3 ul li {
+    /* margin-bottom: 10px; */
+    /* Add some spacing between list items */
+    position: relative;
+    /* Position relative for pseudo-element */
+}
+
+/* CSS for underlining text on hover */
+.footer-col-3 ul li:hover::after {
+    content: '';
+    /* Create a pseudo-element */
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    /* Adjust as needed to position the line */
+    width: 100%;
+    /* Make the line span the entire width */
+    height: 2px;
+    /* Adjust line thickness as needed */
+    background: linear-gradient(to right, #fff, #000);
+    /* Apply gradient background */
+    opacity: 0;
+    /* Initially set opacity to 0 */
+    transition: opacity 0.3s ease;
+    /* Add transition effect for opacity */
+}
+
+.footer-col-3 ul li:hover::after {
+    opacity: 1;
+    /* Set opacity to 1 on hover */
+}
+
+
 .footer-txt-title {
     text-transform: uppercase;
     font-size: 11px !important;
@@ -1028,6 +1098,12 @@ p {
     border-radius: 18px;
     color: #F3F3F3;
     border: none;
+}
+
+.footer-btns button:hover {
+    background: #F3F3F3;
+    color: #292b34;
+    cursor: pointer;
 }
 
 .xg {
